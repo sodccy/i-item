@@ -1,12 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <script src="../js/rem.js"></script>
+    <script src="../js/jquery-3.6.0.js"></script>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    a {
+      text-decoration: none;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header .fh {
+      margin-top: 0.2rem;
+      margin-left: 0.4rem;
+    }
+    header .zc {
+      margin-right: 0.4rem;
+    }
+    .content {
+      padding: 0.4rem;
+    }
+    .content .text,
+    .content .password {
+      display: flex;
+      padding-bottom: 0.1rem;
+      margin-bottom: 0.5rem;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 0.02rem black solid;
+    }
+    .content input {
+      border: none;
+      outline: none;
+      font-size: 0.32rem;
+    }
+    .content .pass {
+      margin-left: 0.5rem;
+    }
+    .content .denglu {
+      height: 1rem;
+      background-color: rgb(196, 196, 24);
+      border-radius: 0.1rem;
+      text-align: center;
+      line-height: 1rem;
+      color: white;
+      margin-bottom: 0.4rem;
+    }
+    .wt {
+      display: flex;
+      justify-content: space-between;
+    }
+    .tubiao {
+      margin-top: 2rem;
+      display: flex;
+      justify-content: space-between;
+    }
+    .tubiao img {
+      width: 1rem;
+    }
+  </style>
+  <body>
+    <header>
+      <h3 class="fh">
+        <a href=""><img src="../img/zjt.png" alt="" /></a>
+      </h3>
+      <h3>登录</h3>
+      <h3 class="zc"><a href="">注册</a></h3>
+    </header>
+    <div class="content">
+      <div class="text">
+        <span>登录名</span
+        ><input type="text" placeholder="手机号码/用户名/邮箱" /><img
+          src="../img/sc.png"
+          alt=""
+        />
+      </div>
+      <div class="password">
+        <span>密码</span
+        ><input type="password" placeholder="登录密码" class="pass" /><img
+          src="../img/yj.png"
+          alt=""
+        />
+      </div>
+      <div class="denglu">登录</div>
+      <div class="wt">
+        <div>登录遇到问题？</div>
+        <div class="jw">境外手机登录</div>
+      </div>
+      <div class="tubiao">
+        <img src="../img/wx.png" alt="" />
+        <img src="../img/qq.png" alt="" />
+        <img src="../img/zfb.png" alt="" />
+        <img src="../img/wb.png" alt="" />
+        <img src="../img/bd.png" alt="" />
+      </div>
+    </div>
+  </body>
 </html>
