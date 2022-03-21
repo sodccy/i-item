@@ -28,6 +28,9 @@
       font-size: 0.5rem;
       color: white;
     }
+    header h4{
+      font-size: .4rem;
+    }
     .content {
       padding: 0.2rem;
       color: rgb(70, 66, 66);
@@ -73,9 +76,35 @@
       margin-left: -3rem;
       font-size: 0.4rem;
     }
-    .lx>p{
-        margin-left: 1.6rem;
-        line-height: .6rem;
+    .lx > p {
+      margin-left: 1.6rem;
+      line-height: 0.6rem;
+    }
+    .yhj img {
+      width: 100%;
+    }
+    .zhuyi {
+      line-height: 0.6rem;
+      margin-left: 0.4rem;
+    }
+    footer {
+      height: 1rem;
+      line-height: 1rem;
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+    }
+    footer .price {
+      background-color: white;
+      width: 50%; 
+    }
+    footer .price span{
+     color: rgb(231, 231, 103);
+     font-size: .5rem;
+    }
+    footer .qzf {
+      background-color: rgb(231, 231, 109);
+      width: 50%;
     }
   </style>
   <body>
@@ -111,8 +140,42 @@
         </div>
         <p>为了您的顺利出行</p>
         <p>请保证与填写的保持一致</p>
-        <p>更换出行人员</p>
+        <p><a href="">更换出行人员></a></p>
+      </div>
+      <div class="xzr">
+        <div><img src="../img/dh.png" alt="" /></div>
+        <div>
+          <p>联系人信息</p>
+          <h4>请填写联系人姓名</h4>
+          <h4>请填写手机号码1345666774</h4>
+        </div>
+        <div><img src="../img/txl.png" alt="" /></div>
+      </div>
+      <div class="yhj"><img src="../img/yhj.png" alt="" /></div>
+      <div class="lx">
+        <div class="cr">
+          <img src="../img/fp.png" alt="" height="50px" width="60px" />
+          <span>不需要发票</span>
+          <img src="../img/yjt.png" alt="" height="30px" />
+        </div>
+        <div class="cr">
+          <img src="../img/gq.png" alt="" height="50px" width="60px" />
+          <span>无要求</span>
+          <img src="../img/yjt.png" alt="" height="30px" />
+        </div>
+      </div>
+      <div class="zhuyi">
+        <p>1.航班价格变动频繁</p>
+        <p>请在提交订单25分钟后完成支付</p>
+        <p>2.点击下一步表示已阅读并同意条款</p>
+        <p>3.为支持绿色环保，默认电子合同，若需要电子合同，请联系客服。</p>
       </div>
     </div>
+    <footer>
+      <div class="price">
+        <p><span>￥4564</span>明细></p>
+      </div>
+      <div class="qzf">去支付</div>
+    </footer>
   </body>
 </html>

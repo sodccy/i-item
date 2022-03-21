@@ -81,15 +81,14 @@
     <div class="content">
       <div class="text">
         <span>登录名</span
-        ><input type="text" placeholder="手机号码/用户名/邮箱" /><img
-          src="../img/sc.png"
-          alt=""
-        />
+        ><input type="text" placeholder="手机号码/用户名/邮箱" />
+        <img src="../img/sc.png" class="del" alt="" />
       </div>
       <div class="password">
         <span>密码</span
         ><input type="password" placeholder="登录密码" class="pass" /><img
           src="../img/yj.png"
+          class="eye"
           alt=""
         />
       </div>
@@ -106,5 +105,19 @@
         <img src="../img/bd.png" alt="" />
       </div>
     </div>
+    <script>
+      $(".del").click(function () {
+        $(this).prev().val("");
+        // console.log($(this).prev());
+      });
+      let pass = document.querySelector(".pass");
+      $(".eye").click(function () {
+        if (pass.type == "password") {
+          pass.type = "text";
+        } else {
+          pass.type = "password";
+        }
+      });
+    </script>
   </body>
 </html>
