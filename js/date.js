@@ -22,6 +22,7 @@ reduceP.onclick = function() {
     if (this.nextElementSibling.value > 1) {
         this.nextElementSibling.value--
             priceP.innerText = num * this.nextElementSibling.value
+        total.innerText = num * this.nextElementSibling.value
     } else {
         this.nextElementSibling.value = 1
     }
@@ -29,6 +30,7 @@ reduceP.onclick = function() {
 addP.onclick = function() {
     this.previousElementSibling.value++
         priceP.innerText = num * this.previousElementSibling.value
+    total.innerText = num * this.previousElementSibling.value
 }
 
 das.onclick = function(e) {
@@ -41,3 +43,16 @@ das.onclick = function(e) {
     num = e.target.innerText * 100
 }
 total.innerHTML = `${new Date().getDate()}00`
+var chiReduce = document.querySelector('.reduce-c')
+var chiAdd = document.querySelector('.add-c')
+var nc = document.querySelector('.num-c')
+chiAdd.onclick = function() {
+    nc.value++
+}
+chiReduce.onclick = function() {
+    if (nc.value > 0) {
+        nc.value--
+    } else {
+        nc.value = 0
+    }
+}
