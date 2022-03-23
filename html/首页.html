@@ -5,11 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="../js/jquery-3.6.0(1).js"></script>
+    <link rel="stylesheet" href="../css/swiper.min.css">
+    <link rel="stylesheet" href="../css/m.css">
     <script src="../js/rem.js"></script>
     <script src="../js/zepto.js"></script>
-    <style>
-        * {
+    <script src="../js/swiper.js"></script>
+   <style>
+          * {
 	margin: 0;
 	padding: 0;
 }
@@ -105,7 +107,7 @@ li {
 }
 .ki{
     margin-top: .1rem;
-    margin-left: .4rem;
+    margin-left: .8rem;
 }
 .ki img{
     width: .4rem;
@@ -149,685 +151,269 @@ li {
     line-height: .6rem;
     height: .6rem;
 }
-
-
-
-
-.app{
-    height: 7.8rem;
-    width: 100%;
-    margin-top: .4rem;
-    height: 1.7rem;
-    display: flex;
-    justify-content: space-evenly;
-} 
-.app li{
-    width: 1.1rem;
-    height: 1.1rem;
-    border-radius: 50%;
-    color: #a3a3a3;   
-}
-.app img{
-    width: .9rem;
-    height: .9rem;
-    margin-left: .1rem;
-    margin-top: .08rem;
-}
-
-.zent1{
-       background-color: #4ca8f5;
-}
-.zent2{
-    background-color: #ff9f26;
-}
-.zent3{
-    background-color: #f75232;
-}
-.zent4{
-    background-color: #96ea3c;
-}
-.we{
-    margin-top: .2rem;
-    margin-left: .1rem;
-}
-.piture{
-    width: 100%;
-    height: 3.4rem;
-    background-color: #cecece;
-    margin-top: .4rem;
-    display: flex;
-}
-.piture1{
-    width: 100%;
-    height: 3.4rem;
-    background-color: #cecece;
-   
-    display: flex;
-}
-  .box{
-            width: 60%;
-            height: 3.4rem;
-            position:relative;
-            overflow: hidden;
-            border: 1px solid #cccccc;
-          }
-          .img1{
-              width: 100%;
-              height: 3.4rem;
-          }
-        .box .box-con{
-            width:1.2rem;
-            height:1.2rem;
-            position: absolute;
-            background: #ffc600;
-            top:-0.6rem;
-            right:-0.6rem;
-            transform: rotate(45deg);
-          }
-        .box .box-con span{
-            
-            position: absolute;
-            bottom:0;
-           
-            display: block;
-            color: white;
-            width:60px;
-            text-align: center;
-            transform: rotate(-45deg);
-        }
-        .box1{
-            width: 40%;
-            height: 3.4rem;
-            position:relative;
-            overflow: hidden;
-            border: 1px solid #cccccc;
-          }
-          .img1{
-              width: 100%;
-              height: 3.4rem;
-          }
-        .box1 .box1-con{
-            width:1.2rem;
-            height:1.2rem;
-            position: absolute;
-            background: #ffc600;
-            top:-0.6rem;
-            right:-0.6rem;
-            transform: rotate(45deg);
-          }
-        .box1 .box1-con span{
-            
-            position: absolute;
-            bottom:0;
-           
-            display: block;
-            color: white;
-            width:1.2rem;
-            text-align: center;
-            transform: rotate(-45deg);
-        }
-
-
-
-
-
-        .box2{
-            width: 40%;
-            height: 3.4rem;
-            position:relative;
-            overflow: hidden;
-            border: 1px solid #cccccc;
-          }
-          .img1{
-              width: 100%;
-              height: 3.4rem;
-          }
-        .box2 .box2-con{
-            width:1.2rem;
-            height:1.2rem;
-            position: absolute;
-            background: #ffc600;
-            top:-0.6rem;
-            right:-0.6rem;
-            transform: rotate(45deg);
-          }
-        .box2 .box2-con span{
-            
-            position: absolute;
-            bottom:0;
-           
-            display: block;
-            color: white;
-            width:60px;
-            text-align: center;
-            transform: rotate(-45deg);
-        }
-        .box3{
-            width: 60%;
-            height: 3.4rem;
-            position:relative;
-            overflow: hidden;
-            border: 1px solid #cccccc;
-          }
-          .img1{
-              width: 100%;
-              height: 3.4rem;
-          }
-        .box3 .box3-con{
-            width:1.2rem;
-            height:1.2rem;
-            position: absolute;
-            background: #ffc600;
-            top:-0.6rem;
-            right:-0.6rem;
-            transform: rotate(45deg);
-          }
-        .box3 .box3-con span{
-            
-            position: absolute;
-            bottom:0;
-           
-            display: block;
-            color: white;
-            width:1.2rem;
-            text-align: center;
-            transform: rotate(-45deg);
-        }
-
-
-
-
-i{
-    transform: rotate(45deg);
-    font-size: .16rem;
-}
-.ait{
-    position: absolute;
-    color: white;
-  
-    top: .4rem;
-    left: 20%;
-}
-.ait1{
-    position: absolute;
-    color: white;
-  
-    bottom: .4rem;
-    left: 20%;
-}
-.fiy{
-    
-    width: 100%;
-    margin-top: .6rem;
-    height: 1rem;
-    display: flex;
-
-}
-.fiy img{
-    margin-top: .2rem;
-    width: 1rem;
-    height: .8rem;
-
-}
-.wz1{
-    line-height: 1rem;
-    height: 1rem;
-    font-size: .4rem;
-    color: #4ca8f5;
-}
-.wz2{
-    line-height: 1rem;
-    height: 1rem;
-    margin-left: .2rem;
-   
-}
-.flex{
-    display: flex;
-    width: 100%;
-    height: 3.6rem; 
-     margin-bottom: .4rem;
-    justify-content: space-evenly  
-}
-.flex img{
-    width: 100%;
-    height: 2.3rem;
-}
-.left1{
-    width: 45%;
-    height: 3.6rem;
-}
-.ring1{
-    width: 45%;
-    height: 3.6rem;
-
-}
-.zt3{
-    margin-left: .1rem;
-    font-size: .24rem;
-}
-.bod{
-    height: 1.3rem;
-    border-bottom: #c3c4c5 solid 1px;
-    border-left: #c3c4c5 solid 1px;
-    border-right: #c3c4c5 solid 1px;
-}
-.lty{
-    margin-top: .2rem;
-    margin-left: .1rem;
-
-}
-.zt4{
-    color: #c3c4c5;
-    font-size: .16rem;
-}
-.zt5{
-    font-size: .24rem;
-    color: #ff9900;
-}
-.riin{
-    margin-right: .3rem;
-}
-.ending{
-    width: 100%;
-    height: 1.3rem;
-    /*  */
-    background-color: #ededed ;
-    /* */
-    display: flex;
-    justify-content: space-evenly
-   
-    
-}
-.ending img{
-    width: .6rem;
-    height: .6rem;
-    margin-top: .16rem;
-}
-.lrnet1{
-    width: 15%;
-}
-.lrnet2{
-    width: 15%;
-}
-.lrnet3{
-    width: 15%;
-}
-.lrnet4{
-    width: 15%;
-}
-.blue{
-    color: #4ca8f5;
-    font-weight: bold;
-    font-size: .2rem;
-    margin-left: -0.16rem;
-}
-.blue1{
-    color: #cccccc;
-    font-size: .2rem;
-    margin-left: -0.08rem;
-}
-.blue2{
-    color: #cccccc;
-    font-size: .2rem;
-    margin-left: -0.1rem;
-}
-.blue3{
-    color: #cccccc;
-    font-size: .2rem;
-    margin-left: 6px;
-}
-
-/* 轮播 */
-.wrapper{
-				width: 100%;
-				height: 4.6rem;
-               position: relative;
-				top: 0;
-			}
-			
-			.home-img{
-    height: 4.6rem;
-}
-.home-img img{
-    
-    width: 100%;
-    height: 4.6rem;
-}
-			
-			.home-img li {
-				position: absolute;
-				top: 0;
-				left: 0;
-			}
-			
-ol {
-				position: absolute;
-                right: 0;
-                bottom: 20px;
-
-			
-			
-			}
-			
-			ol li {
-				float: left;
-				width: .1rem;
-				height: .1rem;
-				margin: 0 .1rem;
-				text-align: center;
-				border-radius: 50%;
-				cursor: default;
-				background-color: #abc;
-				cursor: pointer;
-			}
-			
-			ol li.current {
-				background-color: pink;
-			}
-/* 轮播 */
-    </style>
+   </style>
 </head>
 <body>
-    <div class="dwei">
-  <ul class="home clearfix">
-      <li class="tent1 fl">中国移动 3G</li>
-      <li class="lent6 fr">16:25</li>
-      <li class="lent5 fr"><img src="../images/03-首页_08.png" alt=""></li>
-      <li class="lent2 fr"><img src="../images/03-首页_06.png" alt=""></li>
-      <li class="lent3 fr">3G</li>
-      
-      <li class="lent4 fr"><img src="../images/03-首页_03.png" alt=""></li>
-  </ul>
-    <div class="home-1">
-        <div class="ki">
-            <img src="../images/images/tm_03.png" alt="">
-        </div>
-
-       <div class="input">
-       <div class="ip"><img src="../images/images/tm_14.png " alt=""></div>
-       <div class="bedr">北京</div>
-       <div class="ss"><img src="../images/images/tm_10.png" alt=""></div>
-       <div class="fei">目的地/关键词</div>
-
+<!-- 透明盒子 -->
+<div class="dwei">
+    <ul class="home clearfix">
+        <li class="tent1 fl">中国移动 3G</li>
+        <li class="lent6 fr">16:25</li>
+        <li class="lent5 fr"><img src="../images/03-首页_08.png" alt=""></li>
+        <li class="lent2 fr"><img src="../images/03-首页_06.png" alt=""></li>
+        <li class="lent3 fr">3G</li>
         
-        </div>
-       
-
-    </div>
-</div>
-
-<div class="wrapper">
-    <ul class="home-img">
-        <li style="z-index: 6;"><img src="../images/05-_01.jpg" /></li>
-        <li style="z-index: 5;"><img src="../images/05-旅游首页_01.jpg" /></li>
-        <li style="z-index: 4;"><img src="../images/lunb_01.jpg"/></li>
-         </ul>
-    <ol style="z-index: 10;" id="uu">
-        <li class="current"></li>
-        <li></li>
-        <li></li>
-       
-    </ol>
-    </div>
-<!-- 轮播 -->
-
-
-
-
-<ul class="app">
-    <li class="zent1">
-        <p><img src="../images/images/未标题-1_09.png" alt=""></p>
-        <p class="we">出境游</p>
-    
-    </li>
-    <li class="zent2">
-        <p><img src="../images/images/未标题-1_10.png" alt=""></p>
-        <p class="we">国内游</p>
-    </li>
-    <li class="zent3">
-        <p><img src="../images/images/未标题-1_11.png" alt=""></p>
-        <p class="we">周边游</p>
-    </li>
-    <li class="zent4">
-        <p><img src="../images/images/未标题-1_12.png" alt=""></p>
-        <p class="we">当地游</p>
-    </li>
-</ul>
-
-<div class="piture">
-    <div class="box">
-        <div>
-           <img class="img1" src="../images/05-旅游首页_03.jpg" alt=""> 
-        </div>
-        <div class="ait">澳大利亚——悉尼</div>
-        <div class="box-con">
-            <span><i class="">力荐</i> </span>
-        </div>
-    </div>
-    
-    <div class="box1">
-        <div>
-           <img class="img1" src="../images/05-旅游首页_05.jpg" alt=""> 
-        </div>
-        <div class="ait">海南——三亚</div>
-        <div class="box1-con">
-            <span><i class="">力荐</i> </span>
-        </div>
-    </div>
-    
-</div>
-
-<div class="piture1">
-    <div class="box2">
-        <div>
-           <img class="img1" src="../images/05-旅游首页_09.jpg" alt=""> 
-        </div>
-        <div class="ait1">河北——承德</div>
-        <div class="box2-con">
-            <span><i class="">力荐</i> </span>
-        </div>
-    </div>
-    
-    <div class="box3">
-        <div>
-           <img class="img1" src="../images/05-旅游首页_11.jpg" alt=""> 
-        </div>
-        <div class="ait1">北京——八达岭长城</div>
-        <div class="box3-con">
-            <span><i class="">力荐</i> </span>
-        </div>
-    </div>
-    
-</div>
-<!-- 出境游 -->
-<div class="fiy">
-   <div><img src="../images/images/font-1_01_09.png" alt=""> </div>
-    <div class="wz1">出境游</div>
-    <div class="wz2">世界太大，我想去走走</div>
-</div>
+        <li class="lent4 fr"><img src="../images/03-首页_03.png" alt=""></li>
+    </ul>
+      <div class="home-1">
+          <div class="ki">
+           
+          </div>
   
-<div class="flex">
-    <div class="left1">
-        <p class=""><img src="../images/05-_10.jpg" alt=""></p>
-        <div class="bod">
-            <div class="zt3">曼谷+芭提雅6日5晚自由</div>
-            <div class="zt3"> 行（4钻</div>
-            <div class="lty clearfix">
-                <p class="zt4 fl">席位充足</p>
-                <div class="zt4 riin fr">起</div>
-                <p class="zt5  fr">￥3060</p>
+         <div class="input">
+         
+         <div class="ss"><img src="../images/images/tm_10.png" alt=""></div>
+         <div class="fei">搜索旅行地/酒店/景点</div>
+  
+          
+          </div>
+         
+  
+      </div>
+  </div>
+<!-- 轮播图 -->
 
-            </div>
-        </div>
-      
-
+  <div class="swiper">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="../img/03-home_02.jpg" alt=""  style="width: 100%; "></div>
+        <div class="swiper-slide"><img src="../img/03-home_02.jpg" alt=""  style="width: 100%; "></div>
+        <div class="swiper-slide"><img src="../img/03-home_02.jpg" alt=""  style="width: 100%; "></div>
     </div>
-    <div class="ring1">
-        <p class=""><img src="../images/05-_12.jpg" alt=""></p>
-        <div class="bod">
-            <div class="zt3">美国东西海岸+夏威夷+波</div>
-            <div class="zt3">士顿+纽约+华盛顿+拉...</div>
-            <div class="lty clearfix">
-                <p class="zt4 fl">席位充足</p>
-                <div class="zt4 riin fr">起</div>
-                <p class="zt5  fr">￥9099</p>
+    <!-- 如果需要分页器 -->
+    <div class="swiper-pagination"></div>
 
-            </div>
-        </div>
-
-
-    </div>
+   
 </div>
-<div class="flex">
-    <div class="left1">
-        <p class=""><img src="../images/05-_16.jpg" alt=""></p>
-        <div class="bod">
-            <div class="zt3">日本东京+大阪7日6晚自 </div>
-            <div class="zt3">由行【美食·购物】</div>
-            <div class="lty clearfix">
-                <p class="zt4 fl">席位充足</p>
-                <div class="zt4 riin fr">起</div>
-                <p class="zt5  fr">￥5350</p>
-
-            </div>
-        </div>
-      
-
-    </div>
-    <div class="ring1">
-        <p class=""><img src="../images/05-_17.jpg" alt=""></p>
-        <div class="bod">
-            <div class="zt3">意大利+梵蒂冈+瑞士+法</div>
-            <div class="zt3"> 国+维罗纳13日跟团游...</div>
-            <div class="lty clearfix">
-                <p class="zt4 fl">席位充足</p>
-                <div class="zt4 riin fr">起</div>
-                <p class="zt5  fr">￥13999</p>
-
-            </div>
-        </div>
 
 
-    </div>
+<div class="clearfix inner" style="margin-top: 0.4rem;">
+ <div class="fl" style="width: 30%;">
+        <img class="ml" src="../img/03-home_05.jpg" alt="" style="height: 3.2rem;width: 100%;">
+ </div>
+ <div class="fl inner1" style="margin: 0px 3%;">
+           <div><img src="../img/images/font-1_01_09.png" alt=""></div>
+           <span style="font-size: 0.34rem; color: #fff;">出境游</span>          
 </div>
-<div class="flex">
-    <div class="left1">
-        <p class=""><img src="../images/05-_20.jpg" alt=""></p>
-        <div class="bod">
-            <div class="zt3">普吉岛6日5万自由行·DIY </div>
-            <div class="zt3">自由订制，酒店任选海...    </div>
-            <div class="lty clearfix">
-                <p class="zt4 fl">席位充足</p>
-                <div class="zt4 riin fr">起</div>
-                <p class="zt5  fr">￥1999</p>
-
-            </div>
-        </div>
-      
-
-    </div>
-    <div class="ring1">
-        <p class=""><img src="../images/05-_21.jpg" alt=""></p>
-        <div class="bod">
-            <div class="zt3">澳大利亚悉尼+黄金海岸+</div>
-            <div class="zt3"> 墨尔本自由行·11天9晚...</div>
-            <div class="lty clearfix">
-                <p class="zt4 fl">席位充足</p>
-                <div class="zt4 riin fr">起</div>
-                <p class="zt5  fr">￥1999</p>
-
-            </div>
-        </div>
-
-
-    </div>
+<div class="fl inner1">
+  <div><img src="../img/images/font-1_01_06.png" alt=""></div>
+  <span style="font-size: 0.34rem; color: #fff;">国内游</span>          
 </div>
+
+<div class="fl inner2" style="margin: 0px 3%;" style="background: #DE4989;">
+  <div><img src="../img/未标题-1_11.png" alt=""></div>
+  <span style="font-size: 0.34rem; color: #fff;">周边游</span>          
+</div>
+<div class="fl inner3">
+<div><img src="../img/未标题-1_14.png" alt=""></div>
+<span style="font-size: 0.34rem; color: #fff;">当地游</span>          
+</div>
+</div>
+<!-- 第二个 -->
+<div class="clearfix inner" style="margin-top: 0.4rem;">
+  <div class="fl" style="width: 30%;">
+         <img class="ml" src="../img/03-home_08.jpg" alt="" style="height: 3.2rem;width: 100%;">
+  </div>
+  <div class="fl ticket inner1" style="margin: 0px 3%; text-align: center;">
+           
+            <span style="font-size: 0.34rem; color: #fff; margin-left: 20%;">低价机票</span>          
+ </div>
+ <div class="fl inner1">
+   
+   <span style="font-size: 0.34rem; color: #fff; margin-left: 20%;">车票/船票</span>          
+ </div>
  
-<ul class="ending">
-    <li class="lrnet1">
-        <div class=""><img src="../images/images/font-1_01_06.png" alt=""></div>
-        <div class="blue">旅游首页</div>
+ <div class="fl train" style="margin: 0px 3%;" style="background: #DE4989;">
+   <div><img src="../img/未标题-1_12.png" alt=""></div>
+   <span style="font-size: 0.34rem; color: #fff;">周边游</span>          
+ </div>
+ <div class="fl driver">
+ <span style="font-size: 0.34rem; color: #fff; margin-left: 20%;">专车/自驾</span>          
+ </div>
+ </div>
+<!-- 酒店 -->
+<div class="clearfix inner" style="margin-top: 0.4rem;">
+  <div class="fl" style="width: 30%;">
+         <img class="ml" src="../img/03-home_10.jpg" alt="" style="height: 3.2rem;width: 100%;">
+  </div>
+  <div class="fl ticket country" style="margin: 0px 3%; text-align: center;">
+           
+            <span style="font-size: 0.34rem; color: #fff; margin-left: 20%;">海外酒店</span>          
+ </div>
+ <div class="fl country">
+   
+   <span style="font-size: 0.34rem; color: #fff; margin-left: 20%;">国内酒店</span>          
+ </div>
+ 
+ <div class="fl hot" style="margin: 0px 3%;" style="background: #DE4989;">
+   <span style="font-size: 0.34rem; color: #fff; margin-left:20%;">热门酒店</span>          
+ </div>
+ <div class="fl hot">
+ <span style="font-size: 0.34rem; color: #fff; margin-left: 20%;">特色酒店</span>          
+ </div>
+ </div>
+<!-- 第二块 -->
+<div style="margin-top: 39.9975px /* 0.5333rem -> 39.9975px */;">
+  <img src="../img/03-home_13.jpg" alt="" style="width: 100%;">
+</div>
 
-    </li>
-    <li class="lrnet2">
-        <div class=""><img src="../images/images//未标题-1_02.png" alt=""></div>
-        <div class="blue1">目的地</div>
+<!-- 特卖 -->
+<div class="sell clearfix">
+     <img class="fl" src="../img/images/font-1_01_04.png" alt="">
+     <span class="fl" style="font-size: 0.8rem; color:#1448AE ;">特卖会</span>
+</div>
+<!-- 例子 -->
+<div class="example clearfix">
+     <div class="son fl">
+          <img src="../img/03-home_16.jpg" alt="" style="width: 100%;">
+          <p style="padding-top: 6%;">台湾环岛8月七日跟团游</p>
+          <p style="">甩尾狂甩3人行1人免单...</p>
+          <p style="padding-top: 9%; float: left; color:#C1C1C1 ;">席位充足</p>
+          <p style="padding-top: 9%; float: right;color:#FF9200  ;"><span style="font-size: 0.1333rem; margin-top: -2%;">￥</span>1999起</p>
+     </div>
+     <div class="son fl" style="margin-left: 2%;">
+      <img src="../img/03-home_18.jpg" alt="" style="width: 100%;">
+      <p style="padding-top: 6%;">巴厘岛七日六晚自由行。五</p>
+      <p style="">星豪庭，三星价格3月特...</p>
+      <p style="padding-top: 9%; float: left; color:#C1C1C1 ;">席位充足</p>
+      <p style="padding-top: 9%; float: right;color:#FF9200  ;"><span style="font-size: 0.1333rem; margin-top: -2%;">￥</span>2999起</p>
+    </div> 
+</div>
+<!-- 第二次复制 -->
+<div class="example clearfix">
+  <div class="son fl">
+       <img src="../img/03-home_22.jpg" alt="" style="width: 100%;">
+       <p style="padding-top: 6%;">韩国首尔5日四晚跟团游.</p>
+       <p style="">暑假预售商圈五花.好...</p>
+       <p style="padding-top: 9%; float: left; color:#C1C1C1 ;">席位充足</p>
+       <p style="padding-top: 9%; float: right;color:#FF9200  ;"><span style="font-size: 0.1333rem; margin-top: -2%;">￥</span>1699起</p>
+  </div>
+  <div class="son fl" style="margin-left: 2%;">
+   <img src="../img/03-home_23.jpg" alt="" style="width: 100%;">
+   <p style="padding-top: 6%;">马尔代夫六日行6月四日</p>
+   <p style="">晚.全球顶级海盗蜜月...</p>
+   <p style="padding-top: 9%; float: left; color:#C1C1C1 ;">席位充足</p>
+   <p style="padding-top: 9%; float: right;color:#FF9200  ;"><span style="font-size: 0.1333rem; margin-top: -2%;">￥</span>3699起</p>
+ </div> 
+</div>
 
-    </li>
-    <li class="lrnet3">
-        <div class=""><img src="../images/images//未标题-1_03.png" alt=""></div>
-        <div class="blue2">浏览历史</div>
+<div class="example clearfix" style="margin-bottom: 0.2667rem;">
+  <div class="son fl">
+       <img src="../img/03-home_26.jpg" alt="" style="width: 100%;">
+       <p style="padding-top: 6%;">香港五日自由行6月四日</p>
+       <p>晚.全球顶级海岛蜜月...</p>
+       <p style="padding-top: 9%; float: left; color:#C1C1C1 ;">席位充足</p>
+       <p style="padding-top: 9%; float: right;color:#FF9200  ;"><span style="font-size: 0.1333rem; margin-top: -2%;">￥</span>1888起</p>
+  </div>
+  <div class="son fl" style="margin-left: 2%;">
+   <img src="../img/03-home_27.jpg" alt="" style="width: 100%;">
+   <p style="padding-top: 6%;">新加坡五月四日自由行。错</p>
+   <p>峰周末游。特赠送价值...</p>
+   <p style="padding-top: 9%; float: left; color:#C1C1C1 ;">席位充足</p>
+   <p style="padding-top: 9%; float: right;color:#FF9200  ;"><span style="font-size: 0.1333rem; margin-top: -2%;">￥</span>3699起</p>
+ </div> 
+</div>
 
-    </li>
-    <li class="lrnet4">
-        <div class=""><img src="../images/images//未标题-1_08.png" alt=""></div>
-        <div class="blue3">个人</div>
-
-    </li>
-</ul>
 
 
-
-
-
-<script type="text/javascript">
-	var index = 0;
-	var timer;
-
-	window.onload = function() {
-		init();
-	}
-
-	function init() {
-		autoPlay();
-		stopAuto();
-		beginAuto();
-		movePlay();
-		
-	}
-
-	
-	// 执行动画代码
-	function animate() {
-		$("ol li").eq(index).addClass("current").siblings().removeClass()
-		//上  ol 下的li 下标为0 添加current类名  其他兄弟移除
-		$(".home-img li").eq(index).fadeIn(1000).siblings().fadeOut(500)
-		//逐渐淡化fadeIn(1000) 褪色fadeOut(500)
-
-	}
-// 自动播放轮播
-        function autoPlay() {
-		timer = setInterval(function() {
-			index++
-			if(index == 3) {
-				index = 0
-			};
-		}, 3000)
-	}
-	// 鼠标移到轮播小图标,找到对应的图片
-	function movePlay() {
-		$("ol li").mousemove(function() {
-			index = $(this).index()
-			$(this).addClass("current").siblings().removeClass()
-			$(".home-img li").eq($(this).index()).fadeIn(1000).siblings().fadeOut(500)
-		})
-	}
-
-	// 鼠标移入div停止自动播放
-	function stopAuto() {
-		$(".wrapper").mouseenter(function() {
-			clearInterval(timer)
-		})
-		
-	}
-
-	// 鼠标移出div开始自动播放
-	function beginAuto() {
-		$(".wrapper").mouseleave(function() {
-			autoPlay()
-		})
-	
-	}
-</script>
+<!-- 底部盒子 -->
+<div class="foot clearfix" style="text-align: center;"> 
+     <div class="fl icon"> 
+        <img src="../img/未标题-1_01.png" class="img1" alt="" style="width: 0.5333rem;;">
+        <p class="txt1">首页</p>
+     </div>
+     <div class="fl icon"> 
+      <img class="img2" src="../img/未标题-1_02.png" alt="" style="width: 0.5333rem;;">
+      <p class="txt2">目的地</p>
+   </div>
+   <div class="fl icon"> 
+    <img class="img3" src="../img/未标题-1_03.png" alt="" style="width: 0.5333rem;;">
+    <p class="txt3">浏览历史</p>
+ </div>
+ <div class="fl icon"> 
+  <img class="img4" src="../img/未标题-1_08.png" alt="" style="width: 0.5333rem;;">
+  <p class="txt4">个人</p>
+</div>
+</div>
 </body>
+<script>
+
+var img1 = document.querySelector('.img1')
+var txt1 = document.querySelector('.txt1')
+img1.addEventListener('touchstart',function (){
+  this.src = '../img/未标题-1_05.png'
+  txt1.style.color = '#00f'
+})
+img1.addEventListener('touchend',function (){
+  this.src = '../img/未标题-1_01.png'
+  txt1.style.color = '#000'
+})
+
+var img2 = document.querySelector('.img2')
+var txt2 = document.querySelector('.txt2')
+img2.addEventListener('touchstart',function (){
+  this.src = '../img/未标题-1_06.png'
+  txt2.style.color = '#00f'
+})
+img2.addEventListener('touchend',function (){
+  this.src = '../img/未标题-1_02.png'
+  txt2.style.color = '#000'
+})
+
+var img3 = document.querySelector('.img3')
+var txt3 = document.querySelector('.txt3')
+img3.addEventListener('touchstart',function (){
+  this.src = '../img/未标题-1_04.png'
+  txt3.style.color = '#00f'
+})
+img3.addEventListener('touchend',function (){
+  this.src = '../img/未标题-1_03.png'
+  txt3.style.color = '#000'
+})
+
+var img4 = document.querySelector('.img4')
+var txt4 = document.querySelector('.txt4')
+img4.addEventListener('touchstart',function (){
+  this.src = '../img/未标题-1_07.png'
+  txt4.style.color = '#00f'
+})
+img4.addEventListener('touchend',function (){
+  this.src = '../img/未标题-1_08.png'
+  txt4.style.color = '#000'
+})
+
+
+  var mySwiper = new Swiper ('.swiper', {
+    speed:1000,
+    direction: 'horizontal', // 垂直切换选项
+    loop: true, // 循环模式选项
+    
+    // 如果需要分页器
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    autoplay : {
+    delay:3000
+  },
+    // 如果需要前进后退按钮
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    
+    // 如果需要滚动条
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  })        
+  </script>
 </html>

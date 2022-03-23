@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../js/jquery-3.6.0(1).js"></script>
+    <script src="../js/rem.js"></script>
+    <script src="../js/zepto.js"></script>
+    <style>
+        * {
+	margin: 0;
+	padding: 0;
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.clearfix:after {
+	content: '';
+	height: 0;
+	display: block;
+	visibility: hidden;
+	clear: both;
+
+}
+.dwei{
+    z-index: 555555;
+ 
+    width: 100%; 
+    position: relative;
+      
+}   
+.home{
+    z-index: 5555;
+    background: rgba(0,0,0,.4);
+     height: .6rem;
+     width: 100%;
+     color: white;
+     position: absolute;
+     top: 0;
+     
+    
+}
+.lent2 img{
+    width: .36rem;
+    height: .34rem;
+}
+.lent4 img{
+    width: .36rem;
+    height: .36rem;
+}
+.lent5 img{
+    width: .52rem;
+    height: .34rem;
+}
+.tent1{
+    margin-left: .6rem;
+    line-height: .6rem;
+    height: .6rem;
+    font-size: .16rem;
+}
+.lent6{
+    margin-right: .6rem;
+    margin-top: .1rem;
+  
+    font-size: .16rem;
+}
+.lent3{
+    font-size: .1rem;
+}
+.lent2{
+  margin-top: .1rem;
+   
+}
+.lent4{
+    margin-top: .1rem;
+  
+}
+.lent5{
+    margin-top: .1rem;
+    
+}
+.home-1{
+    z-index: 5555;
+    width: 100%;
+    height: 1.2rem;
+    background: rgba(0,0,0,.4);
+    display: flex;
+    position: absolute;
+    top: .6rem;
+
+
+}
+.ki{
+    margin-top: .1rem;
+    margin-left: .4rem;
+}
+.ki img{
+    width: .4rem;
+    height: .4rem;
+    margin-top: .12rem;
+}
+
+.input{
+    width: 80%;
+    display: flex;
+    border: .02rem solid #c3c4c5;
+    border-radius: .8rem;
+    height: .6rem;
+    margin-top: .1rem;
+
+}
+
+.input img{
+
+ width: .3rem;
+ height: .48rem;
+ margin-left: .3rem;
+ margin-top: .05rem;
+}
+.bedr{
+    height: .6rem;
+    border-right: #c3c4c5 1px solid;
+    
+    line-height: .6rem;
+    font-size: .16rem;
+    color: whitesmoke;
+   width: .7rem;
+}
+.ss img{
+    width: .5rem;
+    height: .5rem;
+}
+.fei{
+    color: #c3c4c5;
+    font-size: .16rem;
+    line-height: .6rem;
+    height: .6rem;
+}
+
+
+
+
+.app{
+    height: 7.8rem;
+    width: 100%;
+    margin-top: .4rem;
+    height: 1.7rem;
+    display: flex;
+    justify-content: space-evenly;
+} 
+.app li{
+    width: 1.1rem;
+    height: 1.1rem;
+    border-radius: 50%;
+    color: #a3a3a3;   
+}
+.app img{
+    width: .9rem;
+    height: .9rem;
+    margin-left: .1rem;
+    margin-top: .08rem;
+}
+
+.zent1{
+       background-color: #4ca8f5;
+}
+.zent2{
+    background-color: #ff9f26;
+}
+.zent3{
+    background-color: #f75232;
+}
+.zent4{
+    background-color: #96ea3c;
+}
+.we{
+    margin-top: .2rem;
+    margin-left: .1rem;
+}
+.piture{
+    width: 100%;
+    height: 3.4rem;
+    background-color: #cecece;
+    margin-top: .4rem;
+    display: flex;
+}
+.piture1{
+    width: 100%;
+    height: 3.4rem;
+    background-color: #cecece;
+   
+    display: flex;
+}
+  .box{
+            width: 60%;
+            height: 3.4rem;
+            position:relative;
+            overflow: hidden;
+            border: 1px solid #cccccc;
+          }
+          .img1{
+              width: 100%;
+              height: 3.4rem;
+          }
+        .box .box-con{
+            width:1.2rem;
+            height:1.2rem;
+            position: absolute;
+            background: #ffc600;
+            top:-0.6rem;
+            right:-0.6rem;
+            transform: rotate(45deg);
+          }
+        .box .box-con span{
+            
+            position: absolute;
+            bottom:0;
+           
+            display: block;
+            color: white;
+            width:60px;
+            text-align: center;
+            transform: rotate(-45deg);
+        }
+        .box1{
+            width: 40%;
+            height: 3.4rem;
+            position:relative;
+            overflow: hidden;
+            border: 1px solid #cccccc;
+          }
+          .img1{
+              width: 100%;
+              height: 3.4rem;
+          }
+        .box1 .box1-con{
+            width:1.2rem;
+            height:1.2rem;
+            position: absolute;
+            background: #ffc600;
+            top:-0.6rem;
+            right:-0.6rem;
+            transform: rotate(45deg);
+          }
+        .box1 .box1-con span{
+            
+            position: absolute;
+            bottom:0;
+           
+            display: block;
+            color: white;
+            width:1.2rem;
+            text-align: center;
+            transform: rotate(-45deg);
+        }
+
+
+
+
+
+        .box2{
+            width: 40%;
+            height: 3.4rem;
+            position:relative;
+            overflow: hidden;
+            border: 1px solid #cccccc;
+          }
+          .img1{
+              width: 100%;
+              height: 3.4rem;
+          }
+        .box2 .box2-con{
+            width:1.2rem;
+            height:1.2rem;
+            position: absolute;
+            background: #ffc600;
+            top:-0.6rem;
+            right:-0.6rem;
+            transform: rotate(45deg);
+          }
+        .box2 .box2-con span{
+            
+            position: absolute;
+            bottom:0;
+           
+            display: block;
+            color: white;
+            width:60px;
+            text-align: center;
+            transform: rotate(-45deg);
+        }
+        .box3{
+            width: 60%;
+            height: 3.4rem;
+            position:relative;
+            overflow: hidden;
+            border: 1px solid #cccccc;
+          }
+          .img1{
+              width: 100%;
+              height: 3.4rem;
+          }
+        .box3 .box3-con{
+            width:1.2rem;
+            height:1.2rem;
+            position: absolute;
+            background: #ffc600;
+            top:-0.6rem;
+            right:-0.6rem;
+            transform: rotate(45deg);
+          }
+        .box3 .box3-con span{
+            
+            position: absolute;
+            bottom:0;
+           
+            display: block;
+            color: white;
+            width:1.2rem;
+            text-align: center;
+            transform: rotate(-45deg);
+        }
+
+
+
+
+i{
+    transform: rotate(45deg);
+    font-size: .16rem;
+}
+.ait{
+    position: absolute;
+    color: white;
+  
+    top: .4rem;
+    left: 20%;
+}
+.ait1{
+    position: absolute;
+    color: white;
+  
+    bottom: .4rem;
+    left: 20%;
+}
+.fiy{
+    
+    width: 100%;
+    margin-top: .6rem;
+    height: 1rem;
+    display: flex;
+
+}
+.fiy img{
+    margin-top: .2rem;
+    width: 1rem;
+    height: .8rem;
+
+}
+.wz1{
+    line-height: 1rem;
+    height: 1rem;
+    font-size: .4rem;
+    color: #4ca8f5;
+}
+.wz2{
+    line-height: 1rem;
+    height: 1rem;
+    margin-left: .2rem;
+   
+}
+.flex{
+    display: flex;
+    width: 100%;
+    height: 3.6rem; 
+     margin-bottom: .4rem;
+    justify-content: space-evenly  
+}
+.flex img{
+    width: 100%;
+    height: 2.3rem;
+}
+.left1{
+    width: 45%;
+    height: 3.6rem;
+}
+.ring1{
+    width: 45%;
+    height: 3.6rem;
+
+}
+.zt3{
+    margin-left: .1rem;
+    font-size: .24rem;
+}
+.bod{
+    height: 1.3rem;
+    border-bottom: #c3c4c5 solid 1px;
+    border-left: #c3c4c5 solid 1px;
+    border-right: #c3c4c5 solid 1px;
+}
+.lty{
+    margin-top: .2rem;
+    margin-left: .1rem;
+
+}
+.zt4{
+    color: #c3c4c5;
+    font-size: .16rem;
+}
+.zt5{
+    font-size: .24rem;
+    color: #ff9900;
+}
+.riin{
+    margin-right: .3rem;
+}
+.ending{
+    width: 100%;
+    height: 1.3rem;
+    /*  */
+    background-color: #ededed ;
+    /* */
+    display: flex;
+    justify-content: space-evenly
+   
+    
+}
+.ending img{
+    width: .6rem;
+    height: .6rem;
+    margin-top: .16rem;
+}
+.lrnet1{
+    width: 15%;
+}
+.lrnet2{
+    width: 15%;
+}
+.lrnet3{
+    width: 15%;
+}
+.lrnet4{
+    width: 15%;
+}
+.blue{
+    color: #4ca8f5;
+    font-weight: bold;
+    font-size: .2rem;
+    margin-left: -0.16rem;
+}
+.blue1{
+    color: #cccccc;
+    font-size: .2rem;
+    margin-left: -0.08rem;
+}
+.blue2{
+    color: #cccccc;
+    font-size: .2rem;
+    margin-left: -0.1rem;
+}
+.blue3{
+    color: #cccccc;
+    font-size: .2rem;
+    margin-left: 6px;
+}
+
+/* 轮播 */
+.wrapper{
+				width: 100%;
+				height: 4.6rem;
+               position: relative;
+				top: 0;
+			}
+			
+			.home-img{
+    height: 4.6rem;
+}
+.home-img img{
+    
+    width: 100%;
+    height: 4.6rem;
+}
+			
+			.home-img li {
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+			
+ol {
+				position: absolute;
+                right: 0;
+                bottom: 20px;
+
+			
+			
+			}
+			
+			ol li {
+				float: left;
+				width: .1rem;
+				height: .1rem;
+				margin: 0 .1rem;
+				text-align: center;
+				border-radius: 50%;
+				cursor: default;
+				background-color: #abc;
+				cursor: pointer;
+			}
+			
+			ol li.current {
+				background-color: pink;
+			}
+/* 轮播 */
+    </style>
+</head>
+<body>
+    <div class="dwei">
+  <ul class="home clearfix">
+      <li class="tent1 fl">中国移动 3G</li>
+      <li class="lent6 fr">16:25</li>
+      <li class="lent5 fr"><img src="../images/03-首页_08.png" alt=""></li>
+      <li class="lent2 fr"><img src="../images/03-首页_06.png" alt=""></li>
+      <li class="lent3 fr">3G</li>
+      
+      <li class="lent4 fr"><img src="../images/03-首页_03.png" alt=""></li>
+  </ul>
+    <div class="home-1">
+        <div class="ki">
+            <img src="../images/images/tm_03.png" alt="">
+        </div>
+
+       <div class="input">
+       <div class="ip"><img src="../images/images/tm_14.png " alt=""></div>
+       <div class="bedr">北京</div>
+       <div class="ss"><img src="../images/images/tm_10.png" alt=""></div>
+       <div class="fei">目的地/关键词</div>
+
+        
+        </div>
+       
+
+    </div>
+</div>
+
+<div class="wrapper">
+    <ul class="home-img">
+        <li style="z-index: 6;"><img src="../images/05-_01.jpg" /></li>
+        <li style="z-index: 5;"><img src="../images/05-旅游首页_01.jpg" /></li>
+        <li style="z-index: 4;"><img src="../images/lunb_01.jpg"/></li>
+         </ul>
+    <ol style="z-index: 10;" id="uu">
+        <li class="current"></li>
+        <li></li>
+        <li></li>
+       
+    </ol>
+    </div>
+<!-- 轮播 -->
+
+
+
+
+<ul class="app">
+    <li class="zent1">
+        <p><img src="../images/images/未标题-1_09.png" alt=""></p>
+        <p class="we">出境游</p>
+    
+    </li>
+    <li class="zent2">
+        <p><img src="../images/images/未标题-1_10.png" alt=""></p>
+        <p class="we">国内游</p>
+    </li>
+    <li class="zent3">
+        <p><img src="../images/images/未标题-1_11.png" alt=""></p>
+        <p class="we">周边游</p>
+    </li>
+    <li class="zent4">
+        <p><img src="../images/images/未标题-1_12.png" alt=""></p>
+        <p class="we">当地游</p>
+    </li>
+</ul>
+
+<div class="piture">
+    <div class="box">
+        <div>
+           <img class="img1" src="../images/05-旅游首页_03.jpg" alt=""> 
+        </div>
+        <div class="ait">澳大利亚——悉尼</div>
+        <div class="box-con">
+            <span><i class="">力荐</i> </span>
+        </div>
+    </div>
+    
+    <div class="box1">
+        <div>
+           <img class="img1" src="../images/05-旅游首页_05.jpg" alt=""> 
+        </div>
+        <div class="ait">海南——三亚</div>
+        <div class="box1-con">
+            <span><i class="">力荐</i> </span>
+        </div>
+    </div>
+    
+</div>
+
+<div class="piture1">
+    <div class="box2">
+        <div>
+           <img class="img1" src="../images/05-旅游首页_09.jpg" alt=""> 
+        </div>
+        <div class="ait1">河北——承德</div>
+        <div class="box2-con">
+            <span><i class="">力荐</i> </span>
+        </div>
+    </div>
+    
+    <div class="box3">
+        <div>
+           <img class="img1" src="../images/05-旅游首页_11.jpg" alt=""> 
+        </div>
+        <div class="ait1">北京——八达岭长城</div>
+        <div class="box3-con">
+            <span><i class="">力荐</i> </span>
+        </div>
+    </div>
+    
+</div>
+<!-- 出境游 -->
+<div class="fiy">
+   <div><img src="../images/images/font-1_01_09.png" alt=""> </div>
+    <div class="wz1">出境游</div>
+    <div class="wz2">世界太大，我想去走走</div>
+</div>
+  
+<div class="flex">
+    <div class="left1">
+        <p class=""><img src="../images/05-_10.jpg" alt=""></p>
+        <div class="bod">
+            <div class="zt3">曼谷+芭提雅6日5晚自由</div>
+            <div class="zt3"> 行（4钻</div>
+            <div class="lty clearfix">
+                <p class="zt4 fl">席位充足</p>
+                <div class="zt4 riin fr">起</div>
+                <p class="zt5  fr">￥3060</p>
+
+            </div>
+        </div>
+      
+
+    </div>
+    <div class="ring1">
+        <p class=""><img src="../images/05-_12.jpg" alt=""></p>
+        <div class="bod">
+            <div class="zt3">美国东西海岸+夏威夷+波</div>
+            <div class="zt3">士顿+纽约+华盛顿+拉...</div>
+            <div class="lty clearfix">
+                <p class="zt4 fl">席位充足</p>
+                <div class="zt4 riin fr">起</div>
+                <p class="zt5  fr">￥9099</p>
+
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div class="flex">
+    <div class="left1">
+        <p class=""><img src="../images/05-_16.jpg" alt=""></p>
+        <div class="bod">
+            <div class="zt3">日本东京+大阪7日6晚自 </div>
+            <div class="zt3">由行【美食·购物】</div>
+            <div class="lty clearfix">
+                <p class="zt4 fl">席位充足</p>
+                <div class="zt4 riin fr">起</div>
+                <p class="zt5  fr">￥5350</p>
+
+            </div>
+        </div>
+      
+
+    </div>
+    <div class="ring1">
+        <p class=""><img src="../images/05-_17.jpg" alt=""></p>
+        <div class="bod">
+            <div class="zt3">意大利+梵蒂冈+瑞士+法</div>
+            <div class="zt3"> 国+维罗纳13日跟团游...</div>
+            <div class="lty clearfix">
+                <p class="zt4 fl">席位充足</p>
+                <div class="zt4 riin fr">起</div>
+                <p class="zt5  fr">￥13999</p>
+
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div class="flex">
+    <div class="left1">
+        <p class=""><img src="../images/05-_20.jpg" alt=""></p>
+        <div class="bod">
+            <div class="zt3">普吉岛6日5万自由行·DIY </div>
+            <div class="zt3">自由订制，酒店任选海...    </div>
+            <div class="lty clearfix">
+                <p class="zt4 fl">席位充足</p>
+                <div class="zt4 riin fr">起</div>
+                <p class="zt5  fr">￥1999</p>
+
+            </div>
+        </div>
+      
+
+    </div>
+    <div class="ring1">
+        <p class=""><img src="../images/05-_21.jpg" alt=""></p>
+        <div class="bod">
+            <div class="zt3">澳大利亚悉尼+黄金海岸+</div>
+            <div class="zt3"> 墨尔本自由行·11天9晚...</div>
+            <div class="lty clearfix">
+                <p class="zt4 fl">席位充足</p>
+                <div class="zt4 riin fr">起</div>
+                <p class="zt5  fr">￥1999</p>
+
+            </div>
+        </div>
+
+
+    </div>
+</div>
+ 
+<ul class="ending">
+    <li class="lrnet1">
+        <div class=""><img src="../images/images/font-1_01_06.png" alt=""></div>
+        <div class="blue">旅游首页</div>
+
+    </li>
+    <li class="lrnet2">
+        <div class=""><img src="../images/images//未标题-1_02.png" alt=""></div>
+        <div class="blue1">目的地</div>
+
+    </li>
+    <li class="lrnet3">
+        <div class=""><img src="../images/images//未标题-1_03.png" alt=""></div>
+        <div class="blue2">浏览历史</div>
+
+    </li>
+    <li class="lrnet4">
+        <div class=""><img src="../images/images//未标题-1_08.png" alt=""></div>
+        <div class="blue3">个人</div>
+
+    </li>
+</ul>
+
+
+
+
+
+<script type="text/javascript">
+	var index = 0;
+	var timer;
+
+	window.onload = function() {
+		init();
+	}
+
+	function init() {
+		autoPlay();
+		stopAuto();
+		beginAuto();
+		movePlay();
+		
+	}
+
+	
+	// 执行动画代码
+	function animate() {
+		$("ol li").eq(index).addClass("current").siblings().removeClass()
+		//上  ol 下的li 下标为0 添加current类名  其他兄弟移除
+		$(".home-img li").eq(index).fadeIn(1000).siblings().fadeOut(500)
+		//逐渐淡化fadeIn(1000) 褪色fadeOut(500)
+
+	}
+// 自动播放轮播
+        function autoPlay() {
+		timer = setInterval(function() {
+			index++
+			if(index == 3) {
+				index = 0
+			};
+		}, 3000)
+	}
+	// 鼠标移到轮播小图标,找到对应的图片
+	function movePlay() {
+		$("ol li").mousemove(function() {
+			index = $(this).index()
+			$(this).addClass("current").siblings().removeClass()
+			$(".home-img li").eq($(this).index()).fadeIn(1000).siblings().fadeOut(500)
+		})
+	}
+
+	// 鼠标移入div停止自动播放
+	function stopAuto() {
+		$(".wrapper").mouseenter(function() {
+			clearInterval(timer)
+		})
+		
+	}
+
+	// 鼠标移出div开始自动播放
+	function beginAuto() {
+		$(".wrapper").mouseleave(function() {
+			autoPlay()
+		})
+	
+	}
+</script>
+</body>
+</html>
