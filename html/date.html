@@ -6,9 +6,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../css/date.css">
+    <link type="text/css" rel="stylesheet" href="../libs/jeDate/test/jeDate-test.css">
+    <link type="text/css" rel="stylesheet" href="../libs/jeDate/skin/jedate.css">
+    <script type="text/javascript" src="../libs/jeDate/src/jedate.js"></script>
+    <script src="../libs/rem.js"></script>
 </head>
 
 <body>
+    <div class="jewarp">
+        <div class="jewarp-head">
+            <h3 class="gray">
+                <span>选择日期和人数</span>
+                <p><a href="javascript:void(0)">起价说明</a></p>
+            </h3>
+        </div>
+        <div class="content">
+            <div class="jefixeitem" id="show01"></div>
+        </div>
+    </div>
+    <div class="total-count">
+        <div class="parent-price">
+            <div class="parent">成人</div>
+            <div class="price-p">
+                ￥<span></span>/人
+            </div>
+            <div class="count-p">
+                <span class="reduce-p">-</span>
+                <input type="text" class="num-p" value="1" disabled>
+                <span class="add-p">+</span>
+            </div>
+        </div>
+        <hr>
+        <div class="children-count">
+            <div class="children">儿童</div>
+            <div class="count-c">
+                <span class="reduce-c">-</span>
+                <input type="text" class="num-c" value="0" disabled>
+                <span class="add-c">+</span>
+            </div>
+        </div>
+        <hr>
+        <div class="child">
+            <input type="checkbox" id="child">
+            <label for="child">
+                携带幼儿
+                <span>0-2岁</span>
+            </label>
+        </div>
+        <hr>
+        <p class="message clear">
+            <span class="ico-tip"></span>
+            <span class="txt clear">
+                最少一人起订，年龄2-12周岁，不占床，不含早，只含当地的正餐半餐、车位以及导服，其他需要自理。<span class="t-a">成人+儿童最多支持9人，
+                    <span class="msg-tip">*以上价格均为起价</span></span>
+            </span>
+        </p>
+    </div>
+    <div class="total-submit">
+        <div class="total-m">总额：￥<span class="m-count"></span><a href="">明细></a></div>
+        <div class="submit-m">下一步<span>选择资源</span></div>
+    </div>
+    <script type="text/javascript" src="../js/date.js"></script>
 
 </body>
 
