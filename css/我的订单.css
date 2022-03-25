@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    background: #1348AE;
+    color: white;
+}
+.l{
+    width:30% ;
+    height: 1rem;
+    line-height: 1rem;
+    font-size: 0.1rem;
+    margin-left: 0.5rem;
+
+    /* text-align: center; */
+}
+.z{
+    width: 40%;
+    height: 1rem;
+    line-height: 1rem;
+    font-size: 0.3rem;
+    text-align: center;
+}
+.l img{
+    width: 0.5rem;
+    height:0.5rem ;
+    margin-top: 0.2rem;
+}
+
+.sy{
+    width: 100%;
+    height: 9.9rem;
+}
+.sy1{
+    width: 90%;
+    height: 3rem;
+    background: #F5F5F5; 
+    margin: 0 auto;
+}
+.s{
+    width: 100%;
+    height: 1.5rem;
+    display: flex;
+}
+.x{
+    width: 100%;
+    height: 1.5rem;
+    /* background: palegoldenrod; */
+    display: flex;
+}
+.s1{
+    width: 60%;
+    height: 1.5rem;
+}
+.s2{
+    width: 40%;
+    height: 1.5rem;
+}
+.s1 p{
+    font-size: 0.4rem;
+    margin-top: 0.2rem;
+
+}
+.s1 span{
+    font-size: 0.3rem;
+    color: #616161;
+}
+.s2 p{
+    color: #F8820C;
+    font-size: 0.3rem;
+    margin-top: 0.2rem;
+    margin-left: 1.2rem;
+}
+.s2 span{
+    font-size: 0.3rem;
+    color: #616161;
+    margin-left: 1.2rem;
+
+}
+.x1{
+    width: 30%;
+    height: 1.5rem;
+}
+.x2{
+    width: 70%;
+    height: 1.5rem;
+    display: flex;
+    justify-content: space-evenly 
+}
+.qx{
+    width: 16%;
+    height: 0.8rem;
+    margin-top: 0.35rem;
+    line-height: 0.8rem;
+    color: #19B2DB;
+    border: #E8E8E8 solid 0.05rem;
+    border-radius: 15%;
+}
+.ck{
+    width: 27%;
+    height: 0.8rem;
+    margin-top: 0.35rem;
+    line-height: 0.8rem;
+    color: #19B2DB;
+    border: #E8E8E8 solid 0.05rem;
+    border-radius: 15%;
+}
+.jx{
+    width: 27%;
+    height: 0.8rem;
+    margin-top: 0.35rem;
+    line-height: 0.8rem;
+    background:#19B2DB ;
+    color: white;
+    border: #E8E8E8 solid 0.05rem;
+    border-radius: 15%;
+}
+.dd{
+    width: 100%;
+    height: 1.5rem;
+    /* background: palegreen; */
+}
+.dd1{
+    width: 60%;
+    height: 1.5rem;
+    margin: 0 auto;
+    text-align: center;
+}
+.dd1 p{
+    color: #989898;
+    margin-bottom: 0.3rem;
+
+}
+.dd1 span{
+    color: #787878;
+    border: #E8E8E8 solid 0.03rem;
+}
+.db{
+    width: 100%;
+    height: 1rem;
+    background: #999999;
+    display: flex;
+    justify-content: space-around;
+}
+.sx{
+    width: 30%;
+    height: 1rem;
+    display: flex;
+}
+.sx img{
+    width: 0.9rem;
+    height: 0.7rem;
+    margin-top: 0.2rem;
+}
+.sx span{
+    line-height: 1rem;
+    color: white;
+}
