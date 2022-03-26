@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      a {
+        text-decoration: none;
+      }
+      ul,
+      li {
+        list-style: none;
+      }
+      header {
+        color: white;
+        height: 1.2rem;
+        background-color: rgb(34, 34, 133);
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+      header span {
+        font-size: 0.5rem;
+        margin-bottom: 0.08rem;
+      }
+      header input {
+        border: 0.02rem white solid;
+        border-radius: 0.4rem;
+        height: 0.5rem;
+        width: 80%;
+        color: white;
+        font-size: 0.32rem;
+        background-color: rgb(34, 34, 133);
+        padding-left: 0.4rem;
+      }
+      nav .list {
+        display: flex;
+        height: 1rem;
+        text-align: center;
+        line-height: 1rem;
+        background-color: whitesmoke;
+      }
+      nav .list li {
+        width: 20%;
+        height: 100%;
+      }
+      .active {
+        background-color: white;
+        border-top: 0.04rem yellow solid;
+      }
+      .content {
+        padding: 0.2rem;
+      }
+      .con {
+        border-bottom: 0.02rem rgb(46, 39, 39) solid;
+        padding-bottom: 0.2rem;
+        display: flex;
+        margin-top: .4rem;
+        justify-content: space-around;
+      }
+      .con img {
+        height: 2.4rem;
+        width: 2rem;
+      }
+      .con-1 {
+        margin: 0.1rem 0;
+        font-size: 0.24rem;
+      }
+      .con-1 span {
+        border: 0.02rem black solid;
+        padding: 0.04rem;
+      }
+      .con-11 {
+        background-color: rgb(117, 185, 185);
+        color: white;
+      }
+      .con-2 {
+        font-size: 0.4rem;
+        color: green;
+      }
+      .con-3 {
+        font-size: 14px;
+      }
+      .con-31 {
+        color: rgb(214, 108, 108);
+        font-size: 0.36rem;
+      }
+      .con-33{
+          background-color: gray;
+          font-size: .36rem;
+      }
+      footer{
+          height: 1.4rem;
+          background-color: #EEEEEE;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+      }
+      footer img{
+          height: 1rem;
+      }
+    </style>
+  </head>
+  <script src="../js/rem.js"></script>
+  <body>
+    <header>
+      <span><</span>
+      <input type="text" placeholder=" 目的地/关键词" />
+    </header>
+    <nav>
+      <ul class="list">
+        <li class="active">全部</li>
+        <li>出发参团</li>
+        <li>目的参团</li>
+        <li>自由行</li>
+        <li>游轮</li>
+      </ul>
+    </nav>
+    <div class="content">
+      <div class="con">
+        <img src="../img/shuizhen.png" alt="" />
+        <div>
+          <p>[述古北之光]古北欧自由美丽...</p>
+          <div class="con-1">
+            <span>无购物</span> <span>无自费</span>
+            <span class="con-11">爸妈放心游</span>
+          </div>
+          <p><span class="con-2">北京出发</span>5行谷光酒店</p>
+          <p>班期：每周四，五，六，日</p>
+          <p class="con-3">
+            <span class="con-31">￥234</span>起 <span class="con-32"
+              > 334人出游</span
+            ><span> 34条点赞</span><span class="con-33"> 5分</span>
+          </p>
+        </div>
+      </div>
+      <div class="con">
+        <img src="../img/miyun.png" alt="" />
+        <div>
+          <p>[述古北之光]古北欧自由美丽...</p>
+          <div class="con-1">
+            <span>无购物</span> <span>无自费</span>
+            <span class="con-11">爸妈放心游</span>
+          </div>
+          <p><span class="con-2">北京出发</span>5行谷光酒店</p>
+          <p>班期：每周四，五，六，日</p>
+          <p class="con-3">
+            <span class="con-31">￥234</span>起 <span class="con-32"
+              > 334人出游</span
+            ><span> 34条点赞</span><span class="con-33"> 5分</span>
+          </p>
+        </div>
+      </div><div class="con">
+        <img src="../img/badaling.png" alt="" />
+        <div>
+          <p>[述古北之光]古北欧自由美丽...</p>
+          <div class="con-1">
+            <span>无购物</span> <span>无自费</span>
+            <span class="con-11">爸妈放心游</span>
+          </div>
+          <p><span class="con-2">北京出发</span>5行谷光酒店</p>
+          <p>班期：每周四，五，六，日</p>
+          <p class="con-3">
+            <span class="con-31">￥234</span>起 <span class="con-32"
+              > 334人出游</span
+            ><span> 34条点赞</span><span class="con-33"> 5分</span>
+          </p>
+        </div>
+      </div><div class="con">
+        <img src="../img/huairou.png" alt="" />
+        <div>
+          <p>[述古北之光]古北欧自由美丽...</p>
+          <div class="con-1">
+            <span>无购物</span> <span>无自费</span>
+            <span class="con-11">爸妈放心游</span>
+          </div>
+          <p><span class="con-2">北京出发</span>5行谷光酒店</p>
+          <p>班期：每周四，五，六，日</p>
+          <p class="con-3">
+            <span class="con-31">￥234</span>起 <span class="con-32"
+              > 334人出游</span
+            ><span> 34条点赞</span><span class="con-33"> 5分</span>
+          </p>
+        </div>
+      </div><div class="con">
+        <img src="../img/changcheng.png" alt="" />
+        <div>
+          <p>[述古北之光]古北欧自由美丽...</p>
+          <div class="con-1">
+            <span>无购物</span> <span>无自费</span>
+            <span class="con-11">爸妈放心游</span>
+          </div>
+          <p><span class="con-2">北京出发</span>5行谷光酒店</p>
+          <p>班期：每周四，五，六，日</p>
+          <p class="con-3">
+            <span class="con-31">￥234</span>起 <span class="con-32"
+              > 334人出游</span
+            ><span> 34条点赞</span><span class="con-33"> 5分</span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer>
+        <img src="../img/lysy.png" alt="">
+        <img src="../img/mdd.png" alt="">
+        <img src="../img/llls.png" alt="">
+        <img src="../img/gr.png" alt="">
+    </footer>
+  </body>
+</html>
