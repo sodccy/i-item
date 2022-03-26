@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    border: none;
+    outline: none;
+    height: .68rem;
+}
+
+.header {
+    display: flex;
+    margin: .2rem .3rem;
+}
+
+.header .ico-la {
+    display: inline-block;
+    background: url(../images/register/leftArrow-blue.png) no-repeat;
+    width: .36rem;
+    height: .66rem;
+    vertical-align: middle;
+}
+
+.header * {
+    font-size: .44rem;
+}
+
+.register {
+    flex: 1;
+    text-align: center;
+}
+
+.form-inp {
+    margin: 1.5rem .5rem 0 .5rem;
+}
+
+.form-inp * {
+    font-size: .34rem;
+}
+
+.nation-address,
+.tel,
+.code,
+.psw {
+    padding: .1rem 0;
+    line-height: .68rem;
+    border-bottom: .02rem solid #999;
+}
+
+.tel,
+.code,
+.psw {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tel a,
+.psw a {
+    display: inline-block;
+    background: url(../images/register/close.png) no-repeat;
+    width: .44rem;
+    height: .44rem;
+}
+
+#getCode {
+    border: none;
+    border-radius: .08rem;
+    background: #999;
+    color: #fff;
+    line-height: .6rem;
+    padding: 0 .15rem;
+    font-size: .28rem;
+}
+
+.code input {
+    width: 2rem;
+    flex: 1;
+    margin-left: .5rem;
+}
+
+.psw input {
+    width: 2rem;
+    flex: 1;
+    margin-left: .2rem;
+}
+
+.getPsw {
+    display: inline-block;
+    width: .62rem;
+    height: .34rem;
+    background: url(../images/register/psw.png) no-repeat;
+}
+
+.register-submit {
+    margin: 1rem .5rem 0;
+}
+
+.register-submit button {
+    width: 100%;
+    height: 1rem;
+    border: none;
+    background: #999;
+    border-radius: .08rem;
+    color: #fff;
+    font-size: .4rem;
+}
+
+.regetCode {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.regetCode button {
+    border: none;
+    border-radius: .08rem;
+    background: #999;
+    color: #fff;
+    line-height: .6rem;
+    width: 2rem;
+    margin: .2rem .5rem 0 .1rem;
+    padding: 0 .15rem;
+    font-size: .28rem;
+}
