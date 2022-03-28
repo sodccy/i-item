@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="../js/rem.js"></script>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    a {
+      text-decoration: none;
+    }
+    header {
+      display: flex;
+      height: 1rem;
+      align-items: center;
+      background-color: rgb(76, 76, 189);
+      color: white;
+    }
+    header .fh {
+      margin-right: 2.4rem;
+      margin-left: 0.4rem;
+      font-size: 0.5rem;
+      color: white;
+    }
+    header h4{
+      font-size: .4rem;
+    }
+    .content {
+      padding: 0.2rem;
+      color: rgb(70, 66, 66);
+      background-color: whitesmoke;
+    }
+    .cf {
+      margin: 0.2rem 0;
+    }
+    .cf p {
+      line-height: 0.6rem;
+    }
+    .cf .cf-d,
+    .cf .cf-r {
+      font-size: 0.28rem;
+    }
+    .xzrs {
+      margin-left: 3.8rem;
+    }
+    .xzr {
+      background-color: white;
+      padding: 0.4rem 0;
+      margin-bottom: 0.4rem;
+      border-radius: 0.2rem;
+      display: flex;
+      justify-content: space-between;
+    }
+    .xzr p {
+      line-height: 0.6rem;
+    }
+    .lx {
+      background-color: white;
+      padding: 0.4rem 0;
+      border-radius: 0.2rem;
+      margin-bottom: 0.4rem;
+    }
+    .cr {
+      display: flex;
+      padding: 0.12rem 0;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .cr span {
+      margin-left: -3rem;
+      font-size: 0.4rem;
+    }
+    .lx > p {
+      margin-left: 1.6rem;
+      line-height: 0.6rem;
+    }
+    .yhj img {
+      width: 100%;
+    }
+    .zhuyi {
+      line-height: 0.6rem;
+      margin-left: 0.4rem;
+    }
+    footer {
+      height: 1rem;
+      line-height: 1rem;
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+    }
+    footer .price {
+      background-color: white;
+      width: 50%; 
+    }
+    footer .price span{
+     color: rgb(231, 231, 103);
+     font-size: .5rem;
+    }
+    footer .qzf {
+      background-color: rgb(231, 231, 109);
+      width: 50%;
+    }
+  </style>
+  <body>
+    <header>
+      <h3 class="fh"><</h3>
+      <h4>订单填写</h4>
+    </header>
+    <div class="content">
+      <div class="cf">
+        <p>三亚5日4半自助套餐</p>
+        <p class="cf-d">出发日期：2022-3-12</p>
+        <p class="cf-r">出发人数：2人<span class="xzrs">限制人数></span></p>
+      </div>
+      <div class="xzr">
+        <div><img src="../img/ren.png" alt="" /></div>
+        <div>
+          <h2>去选择行人</h2>
+          <p>为了您的顺利出行</p>
+          <p>请保证与填写的保持一致</p>
+        </div>
+        <div><img src="../img/yjt.png" alt="" /></div>
+      </div>
+      <div class="lx">
+        <div class="cr">
+          <img src="../img/cn.png" alt="" />
+          <span>李白</span>
+          <img src="../img/yjt.png" alt="" />
+        </div>
+        <div class="cr">
+          <img src="../img/et.png" alt="" />
+          <span>赵寅</span>
+          <img src="../img/yjt.png" alt="" />
+        </div>
+        <p>为了您的顺利出行</p>
+        <p>请保证与填写的保持一致</p>
+        <p><a href="">更换出行人员></a></p>
+      </div>
+      <div class="xzr">
+        <div><img src="../img/dh.png" alt="" /></div>
+        <div>
+          <p>联系人信息</p>
+          <h4>请填写联系人姓名</h4>
+          <h4>请填写手机号码1345666774</h4>
+        </div>
+        <div><img src="../img/txl.png" alt="" /></div>
+      </div>
+      <div class="yhj"><img src="../img/yhj.png" alt="" /></div>
+      <div class="lx">
+        <div class="cr">
+          <img src="../img/fp.png" alt="" height="50px" width="60px" />
+          <span>不需要发票</span>
+          <img src="../img/yjt.png" alt="" height="30px" />
+        </div>
+        <div class="cr">
+          <img src="../img/gq.png" alt="" height="50px" width="60px" />
+          <span>无要求</span>
+          <img src="../img/yjt.png" alt="" height="30px" />
+        </div>
+      </div>
+      <div class="zhuyi">
+        <p>1.航班价格变动频繁</p>
+        <p>请在提交订单25分钟后完成支付</p>
+        <p>2.点击下一步表示已阅读并同意条款</p>
+        <p>3.为支持绿色环保，默认电子合同，若需要电子合同，请联系客服。</p>
+      </div>
+    </div>
+    <footer>
+      <div class="price">
+        <p><span>￥4564</span>明细></p>
+      </div>
+      <div class="qzf">去支付</div>
+    </footer>
+  </body>
+</html>
